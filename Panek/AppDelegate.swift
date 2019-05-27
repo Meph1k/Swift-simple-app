@@ -2,7 +2,7 @@
 //  AppDelegate.swift
 //  Panek
 //
-//  Created by Piotr Suwała on 27/05/2019.
+//  Created by Panek on 27/05/2019.
 //  Copyright © 2019 Panek Team. All rights reserved.
 //
 
