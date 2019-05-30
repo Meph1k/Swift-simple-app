@@ -12,9 +12,16 @@
 		96427C13229C49C700507971 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 96427C11229C49C700507971 /* Main.storyboard */; };
 		96427C15229C49C800507971 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 96427C14229C49C800507971 /* Assets.xcassets */; };
 		96427C18229C49C800507971 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 96427C16229C49C800507971 /* LaunchScreen.storyboard */; };
+		96427C20229C715300507971 /* AboutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96427C1F229C715300507971 /* AboutViewController.swift */; };
+		96427C22229C739700507971 /* AboutTheAuthorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96427C21229C739700507971 /* AboutTheAuthorViewController.swift */; };
+		96427C26229C789700507971 /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = 96427C25229C789700507971 /* Podfile */; };
+		96427C2E229C7F4E00507971 /* AFNetworking.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 96427C2D229C7F4E00507971 /* AFNetworking.framework */; };
+		B56B06D144258AF070A794A4 /* Pods_Panek.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0C6A110DD4BBF2BC154E9E3D /* Pods_Panek.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0C6A110DD4BBF2BC154E9E3D /* Pods_Panek.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Panek.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2ADF7EEF3B5B040BF4410EE5 /* Pods-Panek.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Panek.release.xcconfig"; path = "Panek/Pods/Target Support Files/Pods-Panek/Pods-Panek.release.xcconfig"; sourceTree = "<group>"; };
 		96427C0A229C49C700507971 /* Panek.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Panek.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		96427C0D229C49C700507971 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		96427C0F229C49C700507971 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +29,14 @@
 		96427C14229C49C800507971 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		96427C17229C49C800507971 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		96427C19229C49C800507971 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		96427C1F229C715300507971 /* AboutViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutViewController.swift; sourceTree = "<group>"; };
+		96427C21229C739700507971 /* AboutTheAuthorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutTheAuthorViewController.swift; sourceTree = "<group>"; };
+		96427C25229C789700507971 /* Podfile */ = {isa = PBXFileReference; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		96427C27229C7A4300507971 /* AFNetworking.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = AFNetworking.h; path = Panek/Pods/AFNetworking/AFNetworking/AFNetworking.h; sourceTree = "<group>"; };
+		96427C29229C7A6B00507971 /* AFNetworking */ = {isa = PBXFileReference; lastKnownFileType = folder; name = AFNetworking; path = Panek/Pods/AFNetworking/AFNetworking; sourceTree = "<group>"; };
+		96427C2B229C7CB100507971 /* libAFNetworking.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libAFNetworking.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		96427C2D229C7F4E00507971 /* AFNetworking.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = AFNetworking.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9C00507BA76043FCF618F185 /* Pods-Panek.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Panek.debug.xcconfig"; path = "Panek/Pods/Target Support Files/Pods-Panek/Pods-Panek.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +44,42 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				96427C2E229C7F4E00507971 /* AFNetworking.framework in Frameworks */,
+				B56B06D144258AF070A794A4 /* Pods_Panek.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1071F0CEE5A9031B9E86B3E7 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9C00507BA76043FCF618F185 /* Pods-Panek.debug.xcconfig */,
+				2ADF7EEF3B5B040BF4410EE5 /* Pods-Panek.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		5D79D50F0E30182656589C31 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				96427C2D229C7F4E00507971 /* AFNetworking.framework */,
+				96427C2B229C7CB100507971 /* libAFNetworking.a */,
+				96427C29229C7A6B00507971 /* AFNetworking */,
+				96427C27229C7A4300507971 /* AFNetworking.h */,
+				0C6A110DD4BBF2BC154E9E3D /* Pods_Panek.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		96427C01229C49C700507971 = {
 			isa = PBXGroup;
 			children = (
 				96427C0C229C49C700507971 /* Panek */,
 				96427C0B229C49C700507971 /* Products */,
+				1071F0CEE5A9031B9E86B3E7 /* Pods */,
+				5D79D50F0E30182656589C31 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,12 +94,15 @@
 		96427C0C229C49C700507971 /* Panek */ = {
 			isa = PBXGroup;
 			children = (
+				96427C21229C739700507971 /* AboutTheAuthorViewController.swift */,
 				96427C0D229C49C700507971 /* AppDelegate.swift */,
 				96427C0F229C49C700507971 /* ViewController.swift */,
+				96427C1F229C715300507971 /* AboutViewController.swift */,
 				96427C11229C49C700507971 /* Main.storyboard */,
 				96427C14229C49C800507971 /* Assets.xcassets */,
 				96427C16229C49C800507971 /* LaunchScreen.storyboard */,
 				96427C19229C49C800507971 /* Info.plist */,
+				96427C25229C789700507971 /* Podfile */,
 			);
 			path = Panek;
 			sourceTree = "<group>";
@@ -71,9 +114,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 96427C1C229C49C800507971 /* Build configuration list for PBXNativeTarget "Panek" */;
 			buildPhases = (
+				F0ACDA75C52639772C8DE799 /* [CP] Check Pods Manifest.lock */,
 				96427C06229C49C700507971 /* Sources */,
 				96427C07229C49C700507971 /* Frameworks */,
 				96427C08229C49C700507971 /* Resources */,
+				830A709BEB1B4912A9B14E13 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -124,19 +169,69 @@
 			files = (
 				96427C18229C49C800507971 /* LaunchScreen.storyboard in Resources */,
 				96427C15229C49C800507971 /* Assets.xcassets in Resources */,
+				96427C26229C789700507971 /* Podfile in Resources */,
 				96427C13229C49C700507971 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		830A709BEB1B4912A9B14E13 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Panek/Pods/Target Support Files/Pods-Panek/Pods-Panek-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/AFNetworking/AFNetworking.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AFNetworking.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Panek/Pods/Target Support Files/Pods-Panek/Pods-Panek-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F0ACDA75C52639772C8DE799 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Panek-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		96427C06229C49C700507971 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				96427C20229C715300507971 /* AboutViewController.swift in Sources */,
 				96427C10229C49C700507971 /* ViewController.swift in Sources */,
 				96427C0E229C49C700507971 /* AppDelegate.swift in Sources */,
+				96427C22229C739700507971 /* AboutTheAuthorViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -280,6 +375,7 @@
 		};
 		96427C1D229C49C800507971 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9C00507BA76043FCF618F185 /* Pods-Panek.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -298,6 +394,7 @@
 		};
 		96427C1E229C49C800507971 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2ADF7EEF3B5B040BF4410EE5 /* Pods-Panek.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;

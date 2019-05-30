@@ -12,7 +12,7 @@ import AFNetworking
 class AboutTheAuthorViewController: UIViewController {
     @IBOutlet weak var uiImageView: UIImageView!
     
-    let URL_IMAGE = URL(string: "https://scontent.fktw1-1.fna.fbcdn.net/v/t1.0-9/33059895_2179783135381830_6193262610842910720_o.jpg?_nc_cat=108&_nc_ht=scontent.fktw1-1.fna&oh=0ef59dafc68a8f4528ae524bcd126611&oe=5D60CE22")
+    let URL_IMAGE = URL(string: "https://scontent.fktw1-1.fna.fbcdn.net/v/t1.15752-9/61398441_371853653457511_8945866683667447808_n.jpg?_nc_cat=107&_nc_ht=scontent.fktw1-1.fna&oh=83e5551a00c4c32fcf9cc4af34ac1fda&oe=5D925BB6")
     
     override func viewDidLoad() {
         super.viewDidLoad()

@@ -120,17 +120,19 @@
                                     <action selector="close" destination="gJN-BF-j6b" eventType="touchUpInside" id="HM8-Zk-fqu"/>
                                 </connections>
                             </button>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="Panek" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="NOC-1p-AUv">
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="Michał Pankiewicz" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="NOC-1p-AUv">
                                 <rect key="frame" x="393" y="10" width="240" height="128"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="30"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="Panko ranko" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="j5j-xO-rO2">
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="j5j-xO-rO2">
                                 <rect key="frame" x="393" y="93" width="240" height="128"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <string key="text">Michał Pankiewicz student 6 semestru informatyki nr albumu 32925  Dąbrowa Górnicza 30.05.2019
+</string>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
